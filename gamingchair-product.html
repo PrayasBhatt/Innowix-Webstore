@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Innowix Webstore</title>
+  <link rel="stylesheet" href="Assets/css/style.css">
+  <script src="https://kit.fontawesome.com/3a3e3b7b30.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar started -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="Assets/img/logo.png" alt="Logo">
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Search For Product...">
+    </div>
+    <div class="buttons">
+      <button style="color: white;"><i class="fa-regular fa-heart fa-2xl" style="color: #ffffff;"></i>
+        <p>Favourite<br>Wishlist</p>
+      </button>
+      <button style="color: white;"><i class="fa-regular fa-user fa-2xl" style="color: #ffffff;"></i>
+        <p>Login <br> My Account</p>
+      </button>
+      <button><i class="fa-solid fa-cart-shopping fa-2xl" style="color: #ffffff;"></i></button>
+    </div>
+  </nav>
+  <!-- Navbar Ended -->
+  <div class="product-container">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="Assets/img/Gaming chair.png" alt="Image 1"></div>
+            <div class="swiper-slide"><img src="Assets/img/Gaming chair.png" alt="Image 2"></div>
+            <div class="swiper-slide"><img src="Assets/img/Gaming chair.png" alt="Image 3"></div>
+        </div>
+        <div class="swiper-button-prev">&lt;</div>
+        <div class="swiper-button-next">&gt;</div>
+    </div>
+    <div class="product-details">
+        <h1>Fantech Korsi GC191 Gaming Chair-Grey</h1>
+        <p class="rating">★★★★☆ Ratings</p>
+        <p class="brand">Brand: Fantech</p>
+        <p class="price">Rs. 24,999</p>
+        <p class="old-price">Rs. 34,999</p>
+        <p class="discount">-29%</p>
+        <div class="quantity-selector">
+            <button class="quantity-btn" id="decrease">-</button>
+            <input type="number" id="quantity" value="1" min="1">
+            <button class="quantity-btn" id="increase">+</button>
+        </div>
+        <button class="buy-now">Buy Now</button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+</div>
+<div class="ratings-reviews-container">
+    <h2>Ratings & Reviews</h2>
+    <div class="rating-summary">
+        <div class="average-rating">
+            <span class="rating-value">5.0</span>
+            <span class="rating-excellent">Excellent</span>
+            <div class="stars">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+            <p class="total-ratings">1 rating</p>
+        </div>
+        <div class="detailed-ratings">
+            <div class="rating-bar" data-rating="5">
+                <span>5 stars</span>
+                <div class="bar">
+                    <div class="fill" style="width: 100%;"></div>
+                </div>
+                <span class="count">1</span>
+            </div>
+            <div class="rating-bar" data-rating="4">
+                <span>4 stars</span>
+                <div class="bar">
+                    <div class="fill" style="width: 0%;"></div>
+                </div>
+                <span class="count">0</span>
+            </div>
+            <div class="rating-bar" data-rating="3">
+                <span>3 stars</span>
+                <div class="bar">
+                    <div class="fill" style="width: 0%;"></div>
+                </div>
+                <span class="count">0</span>
+            </div>
+            <div class="rating-bar" data-rating="2">
+                <span>2 stars</span>
+                <div class="bar">
+                    <div class="fill" style="width: 0%;"></div>
+                </div>
+                <span class="count">0</span>
+            </div>
+            <div class="rating-bar" data-rating="1">
+                <span>1 star</span>
+                <div class="bar">
+                    <div class="fill" style="width: 0%;"></div>
+                </div>
+                <span class="count">0</span>
+            </div>
+        </div>
+    </div>
+    <div class="rating-buttons">
+        <button class="rating-button" data-rating="5">5</button>
+        <button class="rating-button" data-rating="4">4</button>
+        <button class="rating-button" data-rating="3">3</button>
+        <button class="rating-button" data-rating="2">2</button>
+        <button class="rating-button" data-rating="1">1</button>
+    </div>
+</div>
+<div class="product-details-container">
+    <h3>Product details of Fantech Korsi GC191 Gaming Chair-Grey</h3>
+    <div class="product-features">
+        <ul>
+            <li>Fantech Korsi GC191 Gaming Chair-Grey</li>
+            <li>Brand: Fantech</li>
+            <li>Gaming chair for ultimate comfort</li>
+        </ul>
+        <ul>
+            <li>Sleek grey design</li>
+            <li>Perfect for gaming setups</li>
+            <li>Furniture & Decor>Furniture>Gaming Furniture>Gaming Chairs</li>
+        </ul>
+    </div>
+    <hr>
+    <h3>Specifications of Fantech Korsi GC191 Gaming Chair-Grey</h3>
+    <div class="specifications">
+        <div class="spec-item">
+            <span class="spec-title">Brand</span>
+            <span>Fantech</span>
+        </div>
+        <div class="spec-item">
+            <span class="spec-title">Number of Pieces</span>
+            <span>Not Specified</span>
+        </div>
+        <div class="spec-item">
+            <span class="spec-title">SKU</span>
+            <span>114718039_NP-1031165990</span>
+        </div>
+    </div>
+</div>
+  <!-- Footer Section Start -->
+  <div class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>About</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">About Us</a>
+      </div>
+      <div class="footer-column">
+        <h4>Partner Companies</h4>
+        <a href="#">Nepix</a>
+        <a href="#">Innowix Workshop</a>
+      </div>
+      <div class="footer-column">
+        <h4>Help</h4>
+        <a href="#">Payments</a>
+        <a href="#">Shipping</a>
+        <a href="#">Return Policy</a>
+
+      </div>
+      <div class="footer-column">
+        <h4>Consumer Policy</h4>
+        <a href="#">Return Policy</a>
+        <a href="#">Terms Of Use</a>
+      </div>
+      <div class="vertical-line"></div>
+      <div class="footer-column">
+        <h4>Contact Us:</h4>
+        <p>Innowix Webstore<br>
+          <a href="mailto: innowixwebstore@gmail.com">innowixwebstore@gmail.com</a>
+        </p>
+      </div>
+      <div class="footer-column">
+        <h4>Socials</h4>
+        <div class="socials" style="display: flex;">
+          <a href=""><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+          <a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+          <a href=""><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Innowix webstore.com</p>
+      <img src="Assets/img/esewa.png" alt="Esewa">
+      <img src="Assets/img/khalti.png" alt="Khalti">
+      <img src="Assets/img/ime pay.png" alt="Ime pay">
+    </div>
+  </div>
+  <!-- Footer Section End -->
+
+
+  <script src="Assets/JS/script.js"></script>
+</body>
+
+</html>
